@@ -23,7 +23,9 @@
 	</div>
 </template>
 <script>
-import { get as objGet, isNil, isFunction } from "lodash";
+import objGet from "lodash/get";
+import isNil from "lodash/isNil";
+import isFunction from "lodash/isFunction";
 import { slugifyFormID } from "./utils/schema";
 import formMixin from "./formMixin.js";
 import fieldComponents from "./utils/fieldsLoader.js";

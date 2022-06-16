@@ -1,4 +1,4 @@
-const forEach = require("lodash").forEach;
+const forEach = require("lodash/forEach");
 
 let fieldComponents = {};
 

@@ -1,4 +1,10 @@
-import { get, set, each, isObject, isArray, isFunction, cloneDeep } from "lodash";
+import get from "lodash/get";
+import set from "lodash/set";
+import each from "lodash/each";
+import isObject from "lodash/isObject";
+import isArray from "lodash/isArray";
+import isFunction from "lodash/isFunction";
+import cloneDeep from "lodash/cloneDeep";
 
 // Create a new model by schema default values
 const createDefaultObject = (schema, obj = {}) => {

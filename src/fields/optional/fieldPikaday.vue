@@ -4,7 +4,8 @@
 
 <script>
 import abstractField from "../abstractField";
-import { defaults, get as objGet } from "lodash";
+import defaults from "lodash/defaults";
+import objGet from "lodash/get";
 import dateFieldHelper from "../../utils/dateFieldHelper";
 
 let inputFormat = "YYYY-MM-DD";

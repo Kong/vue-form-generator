@@ -42,7 +42,10 @@
 
 <script>
 import abstractField from "../abstractField";
-import { debounce, get as objGet, isFunction, isNumber } from "lodash";
+import debounce from "lodash/debounce";
+import objGet from "lodash/get";
+import isFunction from "lodash/isFunction";
+import isNumber from "lodash/isNumber";
 import fecha from "fecha";
 
 const DATETIME_FORMATS = {

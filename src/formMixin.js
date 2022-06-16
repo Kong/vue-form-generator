@@ -1,4 +1,9 @@
-import { get as objGet, forEach, isNil, isArray, isString, isFunction } from "lodash";
+import objGet from "lodash/get";
+import forEach from "lodash/forEach";
+import isNil from "lodash/isNil";
+import isArray from "lodash/isArray";
+import isString from "lodash/isString";
+import isFunction from "lodash/isFunction";
 
 export default {
 	methods: {
